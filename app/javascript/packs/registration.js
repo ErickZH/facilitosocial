@@ -7,7 +7,7 @@ class Registration extends React.Component
 {
 	render()
 	{
-		return <Login/>;
+		return <Login name="Erick"/>;
 	}
 }
 
