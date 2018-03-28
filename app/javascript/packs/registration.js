@@ -1,6 +1,6 @@
 // primer componente
 import React from 'react';
-import ReactDOM from 'react-dom';
+import WebpackerReact from 'webpacker-react';
 import { Login } from 'components/registration/login';
 
 class Registration extends React.Component
@@ -11,6 +11,4 @@ class Registration extends React.Component
 	}
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-	ReactDOM.render(<Registration/>, document.getElementById('react-container'));
-});
+WebpackerReact.setup({Registration});
